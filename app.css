@@ -1,0 +1,173 @@
+    
+body {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    background-color: #94e794;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+
+}
+
+/*.sun {
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    padding: 5px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}*/
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/sun.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/eleph.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/zeb.png);
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+.profile{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/lion.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.login{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/leo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.signupBg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/rhino.png);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    height: 20px;
+    display: flex;
+    align-items: right;
+}
+
+.signup{
+    width: 250px;
+    height: 400px;
+    background: #2b2a2a;
+    color: #fff;
+    top: 50%;
+    right: 8%;
+    position: absolute;
+    box-sizing: border-box;
+
+}
+
+.login{
+    width: 20%;
+    height: 400px;
+    background: #070000;
+    color: #8ba305;
+    top: 70%;
+    right: 5%;
+    position: absolute;
+    box-sizing: border-box;
+
+}
+.logo {
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #ff4800;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+a:hover {
+    color: #0b2d8b;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: left;
+
+}
+
+h1{
+    color: #520303;
+    font-size: 80px;
+    padding-left: 10px;
+}
+
+p {
+    background-color: #525e53;
+    opacity: 0.5;
+    border-radius: 10px;
+    font-weight: 300;
+    color:#080808;
+    font-size: 30px;
+    text-shadow: #2b2a2a;
+    padding: 20px;
+  
+}
+
+button{
+    width: 120px;
+    color: #440303ec;
+    font-size: 15px;
+    padding: 10px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    margin-top:30px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #4d4343;
+    font-weight: 400;
+    color: rgb(71, 3, 3);
+    border-radius: 0 0 20px 20px;
+}
+
+.greenText {
+    color: #20be12;
+}
